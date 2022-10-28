@@ -12,7 +12,7 @@ export class RegisterController {
     }
 
     @Post('validateCustomer')
-    async validateCustomer(@Body() req) {
+    async validateCustomer(@Body() req:CreateRegisterDTO) {
         const { name, email, password, site, phone } = req
 
         return this.registerService.validateCustomer(name, email, password, site, phone);

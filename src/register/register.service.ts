@@ -6,7 +6,7 @@ export class RegisterService {
         return `Cliente ${req.name} cadastrado com sucesso!`
     }
 
-    async validateCustomer(name: string, email: string, password: string, site: string, phone?: number) {
+    async validateCustomer(name: string, email: string, password: string, site: string, phone?: string) {
         console.log(`
             SERVICE:    
             

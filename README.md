@@ -1,73 +1,43 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Projeto NODEJS - FIAP 🔴⚫
+Projeto desenvolvido nos treinamentos finais da FIAP 👩🏻‍💻
+<br><br>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Descrição / Proposta / Passo a passo
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+- Inicie um novo projeto NPM
+- Instale NestJS CLI em nível global
+- Crie um módulo, um controller e um serviço para a rota /register
+- Este módulo recebe name, email, password, site, phone do cliente
+- Crie DTOs para validar corretamente os parâmetros de entrada
+- Exiba as mensagens adequadas
+- Todos os campos (exceto phone) são obrigatórios.
+- Simulando um cadastro com sucesso, será exibida a frase: <i>"Cliente <b>< Nome ></b> cadastrado com sucesso!"</i>
 
-## Description
+## Demonstranção da Solução ✅
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Conforme indicado, em caso do preenchimento correto dos dados serão retornadas mensagens positivas acerca do cadastro:
+<br><br>
 
-## Installation
+![image](https://user-images.githubusercontent.com/93789218/198677616-acb0d535-709f-4978-b8ec-66712a2dce5c.png)
 
-```bash
-$ npm install
-```
+<br><br>
+Caso o usuário não informe seu número de telefone, o campo no qual deveria estar este contato será preenchido com uma mensagem autoexplicativa:
 
-## Running the app
+![image](https://user-images.githubusercontent.com/93789218/198677297-06dd448c-7469-4279-a909-b7e7b2e07007.png)
 
-```bash
-# development
-$ npm run start
+<br>
+Caso os campos estejam errados, cada um comunica seu formato adequado:
+<br><br>
 
-# watch mode
-$ npm run start:dev
+![image](https://user-images.githubusercontent.com/93789218/198681208-8627eba1-14b9-42f2-afc0-4f56474e93b6.png)
 
-# production mode
-$ npm run start:prod
-```
+<br>
+No exemplo a seguir, considere o nome do cliente de "Wesley". A mensagem retornada, caso os campos estejam preenchidos corretamente, será esta:
+<br><br>
 
-## Test
+![image](https://user-images.githubusercontent.com/93789218/198682922-47b63910-ba06-499f-a207-dfa05b16070a.png)
 
-```bash
-# unit tests
-$ npm run test
+<br>
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Acompanhe outros repositórios por aqui!
+Acompanhe minha evolução em https://github.com/ViihNeris 💜👩🏻‍💻

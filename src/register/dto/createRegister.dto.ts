@@ -1,4 +1,5 @@
-import { IsNotEmpty, IsString, IsEmail, MinLength, MaxLength, IsPhoneNumber } from "class-validator";
+import { Optional } from "@nestjs/common";
+import { IsNotEmpty, IsString, IsEmail, MinLength, MaxLength, IsPhoneNumber, IsOptional } from "class-validator";
 
 export class CreateRegisterDTO {
     //  name, email, password, site, phone
@@ -19,7 +20,7 @@ export class CreateRegisterDTO {
     @IsString()
     site: string;
 
-    @IsPhoneNumber()
-    phone?: number;
+    @IsOptional()
+    phone?: string;
     
 }
