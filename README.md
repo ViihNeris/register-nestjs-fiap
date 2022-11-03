@@ -13,7 +13,7 @@ Projeto desenvolvido nos treinamentos finais da FIAP 👩🏻‍💻
 - Todos os campos (exceto phone) são obrigatórios.
 - Simulando um cadastro com sucesso, será exibida a frase: <i>"Cliente <b>< Nome ></b> cadastrado com sucesso!"</i>
 
-## Demonstranção da Solução ✅
+## Demonstração da Solução ✅
 
 Conforme indicado, em caso do preenchimento correto dos dados serão retornadas mensagens positivas acerca do cadastro:
 <br><br>
