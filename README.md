@@ -1,4 +1,4 @@
-# Projeto NODEJS - FIAP 🔴⚫
+# Projeto NESTJS - FIAP 🔴⚫
 Projeto desenvolvido nos treinamentos finais da FIAP 👩🏻‍💻
 <br><br>
 
